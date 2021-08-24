@@ -45,7 +45,7 @@ Aims to be easy to set up and intended for small home network use.
 
     - Add node_exporter dashboard
       - https://0.0.0.0:9080/dashboard/import
-      - `13978` (node_exporter, https://grafana.com/grafana/dashboards/13978)
+      - `1860` (node_exporter, https://grafana.com/grafana/dashboards/1860)
       - `10229` (VictoriaMetrics, https://grafana.com/grafana/dashboards/10229)
 
 ### Optional
