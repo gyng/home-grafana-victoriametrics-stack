@@ -1,0 +1,5 @@
+*.pem
+*.key
+grafana.ini
+jsonexporter.yml
+prometheus.yml
