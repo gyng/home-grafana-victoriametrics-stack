@@ -41,7 +41,8 @@ Aims to be easy to set up and intended for small home network use.
     - Add a Prometheus data source
       - Name: VictoriaMetrics
       - URL: http://0.0.0.0:8428
-    See: https://docs.victoriametrics.com/#grafana-setup
+
+      See: https://docs.victoriametrics.com/#grafana-setup
 
     - Add node_exporter dashboard
       - https://0.0.0.0:9080/dashboard/import
