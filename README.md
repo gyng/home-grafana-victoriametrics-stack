@@ -14,13 +14,13 @@ Aims to be easy to set up and intended for small home network use.
    $ sudo ./makecert.sh
    ```
 
-2. Set Grafana config and username/password
+2. [Set Grafana config and username/password](https://grafana.com/docs/grafana/latest/administration/configuration/)
    ```bash
    $ cp config/templates/grafana.template.ini config/grafana.ini
    $ editor config/grafana.ini
    ```
 
-3. Set up Prometheus targets (you can leave this file blank if not using json_exporter)
+3. [Set up Prometheus targets](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#scrape_config)
    ```bash
    $ cp config/templates/prometheus.template.yml config/prometheus.yml
    $ editor config/prometheus.yml 
@@ -49,10 +49,6 @@ Aims to be easy to set up and intended for small home network use.
       - `10229` (VictoriaMetrics, https://grafana.com/grafana/dashboards/10229)
 
 ### Optional
-
-#### Set up alerts
-
-- https://0.0.0.0:9080/alerting/notification/
 
 #### Set Docker networking
 
