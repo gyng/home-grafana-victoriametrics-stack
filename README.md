@@ -1,7 +1,7 @@
 # home-grafana-victoriametrics-stack
 
 Unsecured, minimal, Grafana + VictoriaMetrics + node_exporter stack
-that should cover some your home monitoring needs.
+that should cover your basic your home monitoring needs.
 
 Aims to be easy to set up and intended for small home network use.
 
